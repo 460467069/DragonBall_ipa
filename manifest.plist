@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://warriorgame.oss-ap-southeast-1.aliyuncs.com/noticeimg/thdr/icon-57.png</string>
+					<string>https://warriorgame.oss-ap-southeast-1.aliyuncs.com/noticeimg/krpm/icon-57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://warriorgame.oss-ap-southeast-1.aliyuncs.com/noticeimg/thdr/icon-512.png</string>
+					<string>https://warriorgame.oss-ap-southeast-1.aliyuncs.com/noticeimg/krpm/db_icon512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,11 +31,11 @@
 				<key>bundle-identifier</key>
 				<string>com.cw.en1warrior</string>
 				<key>bundle-version</key>
-				<string>2.0.2</string>
+				<string>2.0.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Saiyan Squad : War</string>
+				<string>Dragon Ball</string>
 			</dict>
 		</dict>
 	</array>
