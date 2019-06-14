@@ -68,7 +68,7 @@
                     <div class="spinner">
                         <div id="showtext">Installing, press the Home button to view.</div>
                         <div class="loading"></div>
-                        <a href="itms-services://?action=download-manifest&url=https://warriorgame.oss-ap-southeast-1.aliyuncs.com/package/DragonBall_Enterprise.plist"  id="down_load" class="btn-u btn-u-lg  ">
+                        <a id="down_load" class="btn-u btn-u-lg" onclick="javascript:install_loading();">
                             <img src="./Dragon Ball_files/dl.png" class="hide">
                             <i class="fa fa-download"></i> Install App  </a>
                         </div>
@@ -107,25 +107,6 @@
         
         <hr class="devider devider-dotted">
 
-        <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-sea margin-bottom-40">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><i class="fa fa-angle-double-right"></i>Version History                        </h3>
-                </div>
-                <table class="table table-striped table-hover app_view_history">
-                    <tbody id="otherAppList">
-                        <input type="hidden" id="pageNum" value="1">
-                        <tr appkey="695c9834472a4cf4bcead7f33240dae0" class="history_row">
-                            <td class="text-center classic-td" style="width:50%;position:relative">2.0.1                                (build 1)
-                            </td>
-                            <td class="text-center" style="width: 50%">
-                            2019-06-05                                                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="word-break:break-all;">
                 <div class="tag-box tag-box-v6">
