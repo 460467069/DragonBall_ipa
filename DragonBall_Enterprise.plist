@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://warriorgame.oss-ap-southeast-1.aliyuncs.com/package/DragonBall-appstore.ipa</string>
+					<string>https://warriorgame.oss-ap-southeast-1.aliyuncs.com/package/DragonBall-Enterprise.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.cw.en1warrior</string>
+				<string>com.chinamobileit.ailin</string>
 				<key>bundle-version</key>
 				<string>2.0.1</string>
 				<key>kind</key>

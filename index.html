@@ -61,6 +61,12 @@
 
             <div id="" class="view row" style="margin-top:30px;">
                 <div class="span12" style="text-align:center;padding:20px; ">
+                    <a data-toggle="modal" id="inhouseClick0" href="javascript:void(0)" style="color: #1abc9c;">
+                        <i class="fa fa-hand-o-right" aria-hidden="true" style="padding-right:5px;"></i>
+                        Update Must-Read
+                    </a>
+                </div>
+                <div class="span12" style="text-align:center;padding:20px; ">
                     <a data-toggle="modal" id="inhouseClick" href="javascript:void(0)" style="color: #1abc9c;"><i class="fa fa-hand-o-right" aria-hidden="true" style="padding-right:5px;"></i>Solutions for "Untrusted Enterprise Developers"</a>
                 </div>
 
@@ -110,13 +116,10 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="word-break:break-all;">
                 <div class="tag-box tag-box-v6">
-                    <h2>Description</h2>
-                    <div id="description" style="height: 130px;overflow: hidden;">
-                    Enjoy it!                        
-                    </div>
-                    <div style="height: 20px;">
-                        <a id="descriptionLoad" href="https://www.pgyer.com/3T-LovaDemo-iOS#" style="float:right;margin-top: 10px">Expand</a>
-                    </div>
+                    <h2>If you have any questions, please feel free to contact customer service.
+                        <br>
+                        Enjoy it!
+                    </h2>
                 </div>
             </div>
         </div>
@@ -136,7 +139,7 @@
             <div class="row">
                 <div class="col-lg-8  col-xs-12 col-md-6 col-sm-6 text-left" style="z-index:0;">
                     <a href="https://www.facebook.com/saiyaninvasion/" target="_blank">Facebook</a>｜
-                    <a href="http://warriorgame.oss-ap-southeast-1.aliyuncs.com/applinkimg/TermsOfService.htm" target="_blank">Term of service</a>
+                    <a href="http://warriorgame.oss-ap-southeast-1.aliyuncs.com/applinkimg/TermsOfService.htm" target="_blank">Terms of service</a>
                 </div>
             </div><!--/row-fluid-->
         </div><!--/container-->
@@ -144,6 +147,57 @@
     <div id="reportAppModal"></div>
     <div id="feedbackAppModal"></div>
     <div id="loginTelModalDiv"></div>
+
+     <div class="modal fade addmodel in" id="inhouseTip0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title font-16">Update Must-Read For iOS Users Of Arena Of Saiyan Or Dragon Ball</h4>
+                </div>
+                <div class="modal-body" style="background:#f2f2f2;height:600px;overflow-y: scroll;">
+                    <section>
+                        <div style="padding:0 10px 20px;">
+                            <li style="list-style:none;color:#1abc9c;">
+                                1. Why can't I update the app directly and, instead, need to reinstall another app?"
+                            </li>
+                            <li style="list-style:none;color:#333;">Because the newly added game content cannot be implemented by directly updating the app.</li>
+                            <li style="list-style:none;color:#1abc9c;">2. "Untrusted Enterprise Developers"?</li>
+                            <span id="clickMe" href="javascript:void(0)" class="label label-info">Solutions</span>
+                            <li style="list-style:none;color:#1abc9c;">3. How do I play my old account on this new app(How to log in)?
+                            <li style="list-style:none;color:#333;">
+                                <i class="fa fa-star" aria-hidden="true" style="padding-right:5px;padding-left:5px;"></i>
+                                For Arena of Saiyan users, the first time you log in, please select Link Account to sign in and enter the link code to enter the old account profile.
+                            </li>
+                            <li style="list-style:none;color:#333;">
+                                <i class="fa fa-star" aria-hidden="true" style="padding-right:5px;padding-left:5px;"></i>
+                                For users whose accounts are already connected to FB, you can choose both Link Account and Facebook for the first time to log in.
+                            </li>
+                            <li style="list-style:none;color:#333;">
+                                <i class="fa fa-star" aria-hidden="true" style="padding-right:5px;padding-left:5px;"></i>
+                                For users whose accounts are NOT connected to FB or using Guest account, the first login, you can choose both Link Account and Guest.
+                            </li>
+                            <li style="list-style:none;color:#333;">
+                                <i class="fa fa-star" aria-hidden="true" style="padding-right:5px;padding-left:5px;"></i>
+                                If you choose Link Account login, you only need to enter Link Code once the first time you sign in. After finding your old account, you can:
+                            </li>
+                            <li style="list-style:none;color:#333;">&nbsp;&nbsp;&nbsp;&nbsp;1）Bind account to FB(for convenience of changing devices). You can login with both Link Account and FB in the future;</li>
+                            <li style="list-style:none;color:#333;">&nbsp;&nbsp;&nbsp;&nbsp;2）Or continue with Link Account login(no Link Code required any more).</li>
+                            <li style="list-style:none;color:#333;">If you don't remember your Link Code the first time you log in, you can get it by opening Arena of Saiyan or Dragon Ball.</li>
+                            <li style="list-style:none;color:#333;">If you have any questions, please feel free to contact customer service.</li>
+                            <li style="list-style:none;color:#1abc9c;">4. The Difference Between Old and New Apps</li>
+                            <img class="img-responsive center-block mt-20 mb-20" src="./Dragon Ball_files/20190716-0.png" style="width:100%;">
+                            <br>
+                        </div>
+                    </section>
+                </div>
+                <div class="modal-footer" style="margin-top:0px">
+                    <a data-dismiss="modal" href="javascript:void(0)" class="btn btn-u btn-u btn-u-default" id="cancle0" style="border-radius:0;width:auto;height:auto;">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade addmodel in" id="inhouseTip" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -175,12 +229,11 @@
                     </section>
                 </div>
                 <div class="modal-footer" style="margin-top:0px">
-                    <a data-dismiss="modal" href="javascript:void(0)" class="btn btn-u btn-u btn-u-default" id="cancle" style="border-radius:0;width:auto;height:auto;">Close</a>
+                    <a data-dismiss="modal" href="javascript:void(0)" class="btn btn-u btn-u btn-u-default" id="cancle0" style="border-radius:0;width:auto;height:auto;">Close</a>
                 </div>
             </div>
         </div>
     </div>
-
 
     <!--=== End Copyright ===-->
     <!-- JS Global Compulsory -->
@@ -315,10 +368,17 @@ _hmt.push(['_setUserTag', '5820', 'developers']);
             var modal = $(this).attr('data-modal');
             ajaxLoadModal(modal);
         });
-
+        $('#clickMe').click(function () {
+            $("#inhouseTip0").modal('hide');
+            $("#inhouseTip").modal('show');
+        });
+        $('#inhouseClick0').click(function () {
+            $("#inhouseTip0").modal('show');
+        });
         $('#inhouseClick').click(function () {
             $("#inhouseTip").modal('show');
         });
+
 
         $('#form').submit(function() {
             if ($('#password').val() == '') {
